@@ -1,0 +1,118 @@
+p{
+    margin:0;
+  }
+  body{
+    height:120vh;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#D1D6E2;
+  }
+  .container{
+    background-color:white;
+    border-radius:5px;
+    font-family: 'Montserrat', sans-serif;
+    width:300px;
+    padding:20px;
+  }
+  .heading{
+    font-weight:900;
+    font-size:12px;
+  }
+  .description{
+    color:#AFB4BA;
+    font-weight:bold;
+    font-size:8px;
+    padding:7px 0 0;
+  }
+  .sub-heading{
+    line-height:15px;
+    padding-bottom:10px;
+  }
+  .plans-section{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    gap:10px;
+    align-items:center;
+  }
+  .plan-details{
+    display:grid;
+    grid-template-columns:1fr 3fr 2fr;
+    border:2px solid #E3E3E3;
+    gap:10px;
+    padding:10px;
+    border-radius:5px;
+    align-items:center;
+    background-color:#FAFAFA;
+  }
+  .selected{
+    border:2px solid #62D79F;
+    background-color:#EAFBF3;
+  }
+  .icon{
+    background-color:white;
+    border-radius:20px;
+    width:30px;
+    display:grid;
+    place-items:center;
+    height:30px;
+  }
+  .plan-name{
+    font-size:10px;
+    font-weight:700;
+  }
+  .subscription-amount{
+    font-size:10px;
+    font-weight:700;
+  }
+  .dollar{
+    vertical-align:middle;
+    font-size:21px;
+  }
+  .payment-details{
+    padding:15px 0;
+    font-size:10px;
+    font-weight:700;
+  }
+  .payment-option{
+    padding-top:10px;
+    display:grid;
+    grid-template-columns:1fr 4fr 1fr;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+  }
+  .cvc{
+    border:1.75px solid #E6E6E6;
+    padding:10px;
+    border-radius:5px;;
+    color:#969CA5
+  }
+  .new-payment-option{
+   color:#485BFF;
+   font-size:8px;
+   font-weight:700;
+    padding-bottom:15px;
+  }
+  .email-box{
+    box-sizing:border-box;
+    border:1px solid #E7E7E7;
+    width:100%;
+    padding:10px;
+    color:#D2D4D8;
+    font-size:8px;
+    border-radius:5px;
+  }
+  button{
+    background-color:#485BFF;
+    color:white;
+    padding:10px;
+    width:100%;
+    height:45px;
+    border-style:none;
+    border-radius:7px;
+    font-size:10px;
+    font-weight:bold;
+    margin-top:10px;
+  }
