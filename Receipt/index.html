@@ -1,71 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Receipt Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700;900&display=swap" rel="stylesheet">
-<div id="receipt">
-  <div id="heading">
-    <div id="company">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4773CB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-        <polyline points="14 2 14 8 20 8"></polyline>
-        <line x1="16" y1="13" x2="8" y2="13"></line>
-        <line x1="16" y1="17" x2="8" y2="17"></line>
-        <polyline points="10 9 9 9 8 9"></polyline>
-      </svg>
-      <p id="company-name">Bylaws</p>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <div id="receipt">
+      <div id="heading">
+        <div id="company">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#4773CB"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-file-text"
+          >
+            <path
+              d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+            ></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <p id="company-name">Bylaws</p>
+        </div>
+        <div id="complete">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#5DB781"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-check"
+          >
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+          Completed
+        </div>
+      </div>
+      <div id="context">
+        Most important legal document of any organization, whether it is a
+        corporation,association, or partnership.
+      </div>
+      <div id="signatures">SIGNERS</div>
+      <div class="signers">
+        <div class="signer-details">
+          <p class="signee-name">Sanjay Nediyara</p>
+          <p class="signee-email">sanjay@startglobal.com</p>
+        </div>
+        <div class="signed">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#5AC27A"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-check-circle"
+          >
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+          <span id="signed-text"> Signed </span>
+        </div>
+        <div class="signer-details">
+          <p class="signee-name">Sandeep A S</p>
+          <p class="signee-email">sandeep@startglobal.com</p>
+        </div>
+        <div class="signed">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#5AC27A"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-check-circle"
+          >
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+          <span> Signed </span>
+        </div>
+        <div>
+          <button>DOWNLOAD BYLAWS</button>
+        </div>
+      </div>
     </div>
-    <div id="complete">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#5DB781" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">
-        <polyline points="20 6 9 17 4 12"></polyline>
-      </svg>
-      Completed
-    </div>
-  </div>
-  <div id="context">
-    Most important legal document of any organization, whether it is a corporation,association, or partnership.
-  </div>
-  <div id="signatures">
-    SIGNERS
-  </div>
-  <div class="signers">
-    <div class="signer-details">
-      <p class="signee-name">Sanjay Nediyara</p>
-      <p class="signee-email">sanjay@startglobal.com</p>
-    </div>
-    <div class="signed">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5AC27A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
-        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-      </svg>
-      <span id="signed-text">
-        Signed
-      </span>
-    </div>
-    <div class="signer-details">
-      <p class="signee-name">Sandeep A S</p>
-      <p class="signee-email">sandeep@startglobal.com</p>
-    </div>
-    <div class="signed">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5AC27A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
-        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-      </svg>
-      <span>
-        Signed
-      </span>
-    </div>
-    <div>
-      <button>DOWNLOAD BYLAWS</button>
-    </div>
-  </div>
-</div>
-</body>
+  </body>
 </html>

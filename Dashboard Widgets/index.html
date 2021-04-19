@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard Widgets</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700;500&display=swap" rel="stylesheet">
-      </header>
-      <div id="two-cards">
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700;500&display=swap"
+        rel="stylesheet"
+      />
+    </header>
+    <div id="two-cards">
       <div id="card-top">
         <div id="heading">
-        <div>
-        Saldo a la fecha
-        <p id="number">$1,200</p>
-      </div>
-      <div>
-       <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#6E98E8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-        </div>
+          <div>
+            Saldo a la fecha
+            <p id="number">$1,200</p>
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#6E98E8"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-arrow-right"
+            >
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
         </div>
         <div id="content">
           <p id="sub-header">Solicita mas dinero</p>
@@ -29,63 +46,112 @@
           <button>SOLICITOR DINERO</button>
         </div>
       </div>
-        <br/>
-        <br/>
-        <div id="card-bottom">
-          <div id="heading-bottom">
-            <div>
-            Movimientos
-            </div>
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg>
-            </div>
+      <br />
+      <br />
+      <div id="card-bottom">
+        <div id="heading-bottom">
+          <div>Movimientos</div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-arrow-right-circle"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 16 16 12 12 8"></polyline>
+              <line x1="8" y1="12" x2="16" y2="12"></line>
+            </svg>
           </div>
-          <div id="content-bottom">
-            <div class="content-line">
-              <div class="symbol">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F4BBD0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-percent"><line x1="19" y1="5" x2="5" y2="19"></line><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg>
-              </div>
-              <div class="description">
-                <p class="desc-line">Comision linea de credito
-                </p>
-                <div id="date">11/05/2020</div>
-              </div>
-              <div class="dollar">
-                $200
-              </div>
-            </div>
-            <hr/>
-            <div class="content-line">
-              <div class="symbol">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#6CD1CA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-                        </div>
-              <div class="description">
-                <p class="desc-line">Pago punto express
-                </p>
-                <div id="date">01/05/2020</div>
-              </div>
-              <div class="dollar">
-                -$70
-              </div>
-            </div>
-            <hr/>
-      <div class="content-line">
-              <div class="symbol">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#6CD1CA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-              </div>
-              <div class="description">
-                <p class="desc-line">Pago punto express
-                </p>
-                 <div id="date">
-                01/04/2020
-                   </div>
-              </div>
-              <div class="dollar">
-                -$70
-              </div>
-            </div>
-            </div>     
         </div>
+        <div id="content-bottom">
+          <div class="content-line">
+            <div class="symbol">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#F4BBD0"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-percent"
+              >
+                <line x1="19" y1="5" x2="5" y2="19"></line>
+                <circle cx="6.5" cy="6.5" r="2.5"></circle>
+                <circle cx="17.5" cy="17.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <div class="description">
+              <p class="desc-line">Comision linea de credito</p>
+              <div id="date">11/05/2020</div>
+            </div>
+            <div class="dollar">$200</div>
+          </div>
+          <hr />
+          <div class="content-line">
+            <div class="symbol">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#6CD1CA"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-dollar-sign"
+              >
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path
+                  d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                ></path>
+              </svg>
+            </div>
+            <div class="description">
+              <p class="desc-line">Pago punto express</p>
+              <div id="date">01/05/2020</div>
+            </div>
+            <div class="dollar">-$70</div>
+          </div>
+          <hr />
+          <div class="content-line">
+            <div class="symbol">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#6CD1CA"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-dollar-sign"
+              >
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path
+                  d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                ></path>
+              </svg>
+            </div>
+            <div class="description">
+              <p class="desc-line">Pago punto express</p>
+              <div id="date">01/04/2020</div>
+            </div>
+            <div class="dollar">-$70</div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

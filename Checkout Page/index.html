@@ -1,119 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
-<div class="page">
-  <div class="timeline">
-    <div>
-      <div class="background">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F0CE95" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag">
-          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <path d="M16 10a4 4 0 0 1-8 0"></path>
-        </svg>
-      </div>
-      <div class="sub-text">
-        Summary
-      </div>
-    </div>
-    <div class="line"></div>
-    <div>
-      <div class="background white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A8B3C0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube">
-          <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
-          <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-        </svg>
-      </div>
-      <div class="sub-text gray">
-        Payment
-      </div>
-    </div>
-    <div class="line"></div>
-    <div>
-      <div class="background white">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A8B3C0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">
-          <polyline points="20 6 9 17 4 12"></polyline>
-        </svg>
-      </div>
-      <div class="sub-text gray">
-        Confirmation
-      </div>
-    </div>
-  </div>
-  <div class="message">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5043DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gift">
-      <polyline points="20 12 20 22 4 22 4 12"></polyline>
-      <rect x="2" y="7" width="20" height="5"></rect>
-      <line x1="12" y1="22" x2="12" y2="7"></line>
-      <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
-      <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
-    </svg>
-    <p class="message-text">Congrats, you are eligible for a <span>Coupon code</span> in this order</p>
-  </div>
-  <p class="heading">Order Summary</p>
-  <div class="item-list">
-    <div class="item">
-      <img class="vintage-image" src="https://4.imimg.com/data4/FW/DD/MY-13455815/wooden-brass-beautiful-antique-telephone-tp-07-500x500.jpg" alt="vintage-telephone">
-      <div class="item-detail">
-        <p class="item-name">Old Reis Telephone</p>
-        <p class="item-seller">Sold by <span>Vintage Techies</span></p>
-        <p class="stock-left">Only 1 left in stock</p>
-        <div class="options">
-          <p>DELETE</p>
-          <p class="buy-later">BUY LATER</p>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <div class="page">
+      <div class="timeline">
+        <div>
+          <div class="background">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#F0CE95"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-shopping-bag"
+            >
+              <path
+                d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
+              ></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+          </div>
+          <div class="sub-text">Summary</div>
+        </div>
+        <div class="line"></div>
+        <div>
+          <div class="background white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#A8B3C0"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-youtube"
+            >
+              <path
+                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+              ></path>
+              <polygon
+                points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+              ></polygon>
+            </svg>
+          </div>
+          <div class="sub-text gray">Payment</div>
+        </div>
+        <div class="line"></div>
+        <div>
+          <div class="background white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#A8B3C0"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-check"
+            >
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          </div>
+          <div class="sub-text gray">Confirmation</div>
         </div>
       </div>
-      <div class="amount-detail">
-        <p class="dollar">$ <span>80</span></p>
-        <p class="discount">60% off</p>
-        <p class="order-quantity">Qty : 1<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#C7CDD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg></p>
+      <div class="message">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#5043DE"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-gift"
+        >
+          <polyline points="20 12 20 22 4 22 4 12"></polyline>
+          <rect x="2" y="7" width="20" height="5"></rect>
+          <line x1="12" y1="22" x2="12" y2="7"></line>
+          <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
+          <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
+        </svg>
+        <p class="message-text">
+          Congrats, you are eligible for a <span>Coupon code</span> in this
+          order
+        </p>
       </div>
-    </div>
-    <div class="item">
-      <img class="vintage-image" src="https://canary.contestimg.wish.com/api/webimage/5aabda612293186572541c98-large.jpg?cache_buster=0b88424085e4d86a496b110423b25455" alt="vintage-typewriter">
-      <div class="item-detail">
-        <p class="item-name">Vintage Typewriter</p>
-        <p class="item-seller">Sold by <span class="seller-name">Retroman</span></p>
-        <p class="stock-left">Only 2 left in stock</p>
-        <div class="options">
-          <p>DELETE</p>
-          <p class="buy-later">BUY LATER</p>
+      <p class="heading">Order Summary</p>
+      <div class="item-list">
+        <div class="item">
+          <img
+            class="vintage-image"
+            src="https://4.imimg.com/data4/FW/DD/MY-13455815/wooden-brass-beautiful-antique-telephone-tp-07-500x500.jpg"
+            alt="vintage-telephone"
+          />
+          <div class="item-detail">
+            <p class="item-name">Old Reis Telephone</p>
+            <p class="item-seller">Sold by <span>Vintage Techies</span></p>
+            <p class="stock-left">Only 1 left in stock</p>
+            <div class="options">
+              <p>DELETE</p>
+              <p class="buy-later">BUY LATER</p>
+            </div>
+          </div>
+          <div class="amount-detail">
+            <p class="dollar">$ <span>80</span></p>
+            <p class="discount">60% off</p>
+            <p class="order-quantity">
+              Qty : 1<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#C7CDD3"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-chevron-down"
+              >
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            class="vintage-image"
+            src="https://canary.contestimg.wish.com/api/webimage/5aabda612293186572541c98-large.jpg?cache_buster=0b88424085e4d86a496b110423b25455"
+            alt="vintage-typewriter"
+          />
+          <div class="item-detail">
+            <p class="item-name">Vintage Typewriter</p>
+            <p class="item-seller">
+              Sold by <span class="seller-name">Retroman</span>
+            </p>
+            <p class="stock-left">Only 2 left in stock</p>
+            <div class="options">
+              <p>DELETE</p>
+              <p class="buy-later">BUY LATER</p>
+            </div>
+          </div>
+          <div class="amount-detail">
+            <p class="dollar">$ <span>160</span></p>
+            <p class="discount">20% off</p>
+            <p class="order-quantity">
+              Qty : 1
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#C7CDD3"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-chevron-down"
+              >
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="amount-detail">
-        <p class="dollar">$ <span>160</span></p>
-        <p class="discount">20% off</p>
-        <p class="order-quantity">Qty : 1 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#C7CDD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg></p>
+      <p class="heading">Payment Method</p>
+      <div class="payment-option">
+        <svg
+          class="bank"
+          xmlns="http://www.w3.org/2000/svg"
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#F8D58E"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-home"
+        >
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+        <div class="bank-information">
+          Internet Banking
+          <p>Federal Bank Ltd.</p>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#C7CDD3"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-chevron-down"
+        >
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
       </div>
+      <button>Proceed to the Checkout</button>
     </div>
-  </div>
-  <p class="heading">Payment Method</p>
-  <div class="payment-option">
-    <svg class="bank" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F8D58E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
-      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-      <polyline points="9 22 9 12 15 12 15 22"></polyline>
-    </svg>
-    <div class="bank-information">
-      Internet Banking
-      <p>Federal Bank Ltd.</p>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C7CDD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
-      <polyline points="6 9 12 15 18 9"></polyline>
-    </svg>
-  </div>
-  <button>Proceed to the Checkout</button>
-</div>
-</body>
+  </body>
 </html>
