@@ -1,0 +1,77 @@
+p {
+  margin: 0px;
+}
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  font-family: "Roboto", sans-serif;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(200, 200, 200, 0.5);
+}
+h2 {
+  font-weight: 500;
+  margin: 0;
+}
+.button {
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 20px 50px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.button:hover {
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+.selected {
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+.displayText {
+  padding: 14px 0;
+  line-height: 23px;
+  color: #6b7480;
+}
+.pricing {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+svg {
+  margin-right: 10px;
+}
+.number {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.dollar {
+  color: #a5a3af;
+  font-size: 20px;
+}
+.supportText {
+  padding: 5px 0 20px;
+  color: #6b7280;
+}
+.range {
+  width: 100%;
+  background-color: #2563eb;
+}
+.range-metrics {
+  padding-top: 5px;
+  color: #a5a3af;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
