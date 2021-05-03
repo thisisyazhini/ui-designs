@@ -1,0 +1,65 @@
+h1,
+p,
+ul {
+  margin: 0;
+}
+body {
+  max-width: 1024px;
+}
+.page {
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 40px;
+}
+.heading {
+  color: #102a42;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.description {
+  color: #617d98;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.image-style {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 20px;
+}
+.button-style {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  background-color: #dae2ec;
+}
+li:first-child button {
+  border-radius: 5px 0 0;
+}
+li:last-child button {
+  border-radius: 0 5px 0 0;
+}
+.button-style-focus {
+  background-color: white;
+}
+.button-style:hover {
+  color: #49acee;
+  background-color: #ebf7ff;
+}
+#show-content {
+  padding: 25px;
+  color: #617d98;
+  font-size: 11px;
+  line-height: 22px;
+}
