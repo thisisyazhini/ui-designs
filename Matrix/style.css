@@ -1,0 +1,37 @@
+body {
+  position: relative;
+  background: #5c434c;
+}
+div {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 100% 0 0 0;
+}
+.y {
+  background: #f09462;
+}
+.z {
+  background: #f5d6b4;
+}
+.p {
+  top: 1px;
+}
+.q {
+  top: 101px;
+}
+.r {
+  top: 201px;
+}
+.s {
+  left: 3px;
+}
+.t {
+  left: 101px;
+}
+.u {
+  left: 203px;
+}
+.v {
+  left: 304px;
+}
