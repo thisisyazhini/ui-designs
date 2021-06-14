@@ -1,0 +1,25 @@
+body {
+  position: relative;
+  background: #293462;
+}
+div {
+  position: absolute;
+}
+.p {
+  z-index: 1;
+  top: 44px;
+  left: 140px;
+  width: 103px;
+  height: 148px;
+  background: #fff1c1;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 75px 75px 25px 25px;
+}
+.o {
+  top: 185px;
+  left: 180px;
+  width: 30px;
+  height: 57px;
+  background: #fe5f55;
+  border-radius: 10px;
+}
