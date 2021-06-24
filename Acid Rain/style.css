@@ -1,0 +1,28 @@
+body {
+  position: relative;
+  margin: 0;
+  background: #0b2429;
+}
+div {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  border-radius: 100%;
+}
+.o {
+  border-radius: 50% 0 50% 50%;
+  margin-left: 80px;
+  margin-top: 140px;
+  background: #f3ac3c;
+}
+.n {
+  border-radius: 50% 0 50% 50%;
+  margin-left: 135px;
+  margin-top: 90px;
+  background: #998235;
+}
+.p {
+  margin-left: 185px;
+  margin-top: 30px;
+  background: #f3ac3c;
+}
