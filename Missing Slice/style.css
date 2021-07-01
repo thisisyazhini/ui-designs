@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background: #e3516e;
+}
+div {
+  margin-top: 150px;
+  border-radius: 50%;
+  margin-left: 300px;
+  width: 0;
+  border: 100px solid transparent;
+  border-left-color: #51b5a9;
+  border-top-color: #fade8b;
+  border-bottom-color: #f7f3d7;
+  transform: rotate(45deg);
+}
