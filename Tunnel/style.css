@@ -1,0 +1,30 @@
+body {
+  position: relative;
+  background: #6592cf;
+}
+div {
+  position: absolute;
+}
+.p {
+  top: 18px;
+  left: 70px;
+  width: 250px;
+  height: 250px;
+  background: #243d83;
+}
+.o {
+  transform: rotate(15deg);
+  top: 67px;
+  left: 120px;
+  width: 150px;
+  height: 150px;
+  background: #6592cf;
+}
+.e {
+  top: 105px;
+  transform: rotate(30deg);
+  left: 155px;
+  width: 75px;
+  height: 75px;
+  background: #243d83;
+}
