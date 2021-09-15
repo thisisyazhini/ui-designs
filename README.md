@@ -1,2 +1,3 @@
-# ui-designs
-Daily UI Designs
+# UI Design Experiments
+
+My design experiments.
